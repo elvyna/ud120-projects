@@ -92,3 +92,14 @@ def poiEmails():
             "chris.loehr@enron.com"
         ]
     return email_list
+
+x = poiEmails()
+
+len(x)
+
+import pandas as pd
+os.chdir("/home/engineering/Documents/Udacity/Machine Learning Engineer Nanodegree/ud120-projects/final_project/")
+
+poi_names = pd.read_table("poi_names.txt", delimiter = " ")
+
+poi_names.columns
